@@ -30,7 +30,7 @@ export function SiteHeader() {
           </nav>
         </div>
       </div>
-      <div className="block container w-full lg:w-[70%] pb-2">
+      <div className="block container w-full lg:w-[70%] pb-4">
         <SearchBox />
       </div>
     </header>
