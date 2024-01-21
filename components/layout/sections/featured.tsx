@@ -8,14 +8,11 @@ import {
 } from "@/components/ui/carousel"
 import HeadingOne from "@/components/ui/heading/heading-1"
 
-const DiscoverMoreSlider = () => {
+const FeaturedSlider = () => {
   return (
     <div className="container">
-      <HeadingOne
-        className="mb-10 lg:mb-12"
-        rightDescText="Good things are waiting for you"
-      >
-        Discover More
+      <HeadingOne className="mb-10 lg:mb-12" rightDescText="Top premium cars">
+        Featured
       </HeadingOne>
       <Carousel
         opts={{
@@ -44,4 +41,4 @@ const DiscoverMoreSlider = () => {
   )
 }
 
-export default DiscoverMoreSlider
+export default FeaturedSlider
